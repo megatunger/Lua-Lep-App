@@ -1,0 +1,17 @@
+# This is a generated file; do not edit or check into version control.
+audioplayers=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.15.1/
+firebase_analytics=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-5.0.15/
+firebase_auth=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.16.1/
+firebase_auth_web=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.3+1/
+firebase_core=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.5/
+firebase_core_web=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
+firebase_database=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_database-3.1.6/
+firebase_storage=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.6/
+flutter_audio_recorder=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/flutter_audio_recorder-0.5.5/
+path_provider=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11/
+path_provider_linux=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+1/
+path_provider_macos=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3/
+shared_preferences=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.7+3/
+shared_preferences_macos=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+10/
+shared_preferences_web=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7/
+sqflite=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.1/
