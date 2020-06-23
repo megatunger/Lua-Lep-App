@@ -13,6 +13,11 @@ class AppDataBloc {
   final PublishSubject<List<Word>> _wordsSubject = PublishSubject<List<Word>>();
   final PublishSubject<List<Sentence>> _sentencesSubject = PublishSubject<List<Sentence>>();
 
+  clearData() async {
+    _wordsSubject.sink.add(null);
+    _sentencesSubject.add(null);
+  }
+
   refreshData() async {
     getWords();
     getSentences();

@@ -7,14 +7,16 @@ import 'package:file/local.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_audio_recorder/flutter_audio_recorder.dart';
+import 'package:lualepapp/blocs/word_check_bloc.dart';
+import 'package:lualepapp/model/word_model.dart';
 import 'package:lualepapp/utils/cryptoString.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 class RecorderWidget extends StatefulWidget {
   final LocalFileSystem localFileSystem;
-
-  RecorderWidget({localFileSystem})
+  final Word wordData;
+  RecorderWidget({localFileSystem, this.wordData})
       : this.localFileSystem = localFileSystem ?? LocalFileSystem();
 
   @override
@@ -145,6 +147,9 @@ class RecorderWidgetState extends State<RecorderWidget> {
         .child('recordings/${file.basename}');
     StorageUploadTask uploadTask = storageReference.putFile(file);
     await uploadTask.onComplete;
+    if (this.widget.wordData!=null) {
+      wordCheckBloc.checkWord(this.widget.wordData.word, file.basename);
+    }
     print('File Uploaded');
   }
 }

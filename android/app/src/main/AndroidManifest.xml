@@ -11,6 +11,9 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="lualepapp"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="io.sentry.dsn"
+            android:value="https://b0222c59b32743b09cb6c0486b86694e@o353025.ingest.sentry.io/5285504" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

@@ -14,6 +14,8 @@
 	<string>Lúa Lếp</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>SentryDSN</key>
+    <string>https://b0222c59b32743b09cb6c0486b86694e@o353025.ingest.sentry.io/5285504</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>

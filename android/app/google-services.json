@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1088593378829",
+    "firebase_url": "https://lua-lep-app.firebaseio.com",
+    "project_id": "lua-lep-app",
+    "storage_bucket": "lua-lep-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088593378829:android:8a4ebdf0b0ea0ac645df44",
+        "android_client_info": {
+          "package_name": "com.megatunger.lualepapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088593378829-obf33k0tov3ab08eg7pocca5km2qddna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhdL682XE6w_gXbf6UUvPFc5PjkKWowx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088593378829-obf33k0tov3ab08eg7pocca5km2qddna.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1088593378829-stco7pvcbel5b371e1u1lfc3b9e8626h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.megatunger.lualepapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

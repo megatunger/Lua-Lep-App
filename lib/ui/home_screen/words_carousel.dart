@@ -1,7 +1,6 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:lualepapp/blocs/user_data_bloc.dart';
 import 'package:lualepapp/model/word_model.dart';
-import 'package:lualepapp/ui/recorder/recorder_widget.dart';
 import 'package:lualepapp/ui/words/word_widget.dart';
 import 'package:random_color/random_color.dart';
 
@@ -16,6 +15,11 @@ class WordsCarousel extends StatefulWidget {
 
 class _WordsCarouselState extends State<WordsCarousel> {
   RandomColor _randomColor = RandomColor();
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {

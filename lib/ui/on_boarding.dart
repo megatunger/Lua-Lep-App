@@ -39,6 +39,8 @@ class _OnBoardingState extends State<OnBoarding> {
         setState(() {
           installed = false;
         });
+      } else {
+        _signInAnonymously();
       }
     });
   }
@@ -79,6 +81,9 @@ class _OnBoardingState extends State<OnBoarding> {
   Future<void> _signInAnonymously() async {
     try {
       await FirebaseAuth.instance.signInAnonymously();
+      final user = await FirebaseAuth.instance.currentUser();
+      sharedPref.save('uuid', user.uid);
+      print("Logged in this user: ${user.uid}");
     } catch (e) {
       print(e);
     }

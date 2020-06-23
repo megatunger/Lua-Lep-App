@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:lualepapp/ui/on_boarding.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
-void main() {
-  runApp(MyApp());
-}
+import 'package:flutter_sentry/flutter_sentry.dart';
+
+Future<void> main() => FlutterSentry.wrap(
+      () async {
+        runApp(MyApp());
+  },
+  dsn: 'https://b0222c59b32743b09cb6c0486b86694e@o353025.ingest.sentry.io/5285504',
+);
 
 class MyApp extends StatelessWidget {
   FirebaseAnalytics analytics = FirebaseAnalytics();

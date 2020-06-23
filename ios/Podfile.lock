@@ -1,6 +1,8 @@
 PODS:
   - audioplayers (0.0.1):
     - Flutter
+  - device_info (0.0.1):
+    - Flutter
   - Firebase/Analytics (6.26.0):
     - Firebase/Core
   - Firebase/Auth (6.26.0):
@@ -82,6 +84,9 @@ PODS:
   - Flutter (1.0.0)
   - flutter_audio_recorder (0.5.4):
     - Flutter
+  - flutter_sentry (0.0.1):
+    - Flutter
+    - Sentry (~> 5.0)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -121,6 +126,8 @@ PODS:
     - nanopb/encode (= 1.30905.0)
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
+  - package_info (0.0.1):
+    - Flutter
   - path_provider (0.0.1):
     - Flutter
   - path_provider_linux (0.0.1):
@@ -128,6 +135,9 @@ PODS:
   - path_provider_macos (0.0.1):
     - Flutter
   - PromisesObjC (1.2.9)
+  - Sentry (5.1.4):
+    - Sentry/Core (= 5.1.4)
+  - Sentry/Core (5.1.4)
   - shared_preferences (0.0.1):
     - Flutter
   - shared_preferences_macos (0.0.1):
@@ -140,6 +150,7 @@ PODS:
 
 DEPENDENCIES:
   - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
   - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
   - firebase_auth_web (from `.symlinks/plugins/firebase_auth_web/ios`)
@@ -149,6 +160,8 @@ DEPENDENCIES:
   - firebase_storage (from `.symlinks/plugins/firebase_storage/ios`)
   - Flutter (from `Flutter`)
   - flutter_audio_recorder (from `.symlinks/plugins/flutter_audio_recorder/ios`)
+  - flutter_sentry (from `.symlinks/plugins/flutter_sentry/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - path_provider_linux (from `.symlinks/plugins/path_provider_linux/ios`)
   - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
@@ -178,10 +191,13 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - Sentry
 
 EXTERNAL SOURCES:
   audioplayers:
     :path: ".symlinks/plugins/audioplayers/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
   firebase_analytics:
     :path: ".symlinks/plugins/firebase_analytics/ios"
   firebase_auth:
@@ -200,6 +216,10 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_audio_recorder:
     :path: ".symlinks/plugins/flutter_audio_recorder/ios"
+  flutter_sentry:
+    :path: ".symlinks/plugins/flutter_sentry/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
   path_provider_linux:
@@ -217,6 +237,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   audioplayers: 84f968cea3f2deab00ec4f8ff53358b3c0b3992c
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
   Firebase: 7cf5f9c67f03cb3b606d1d6535286e1080e57eb6
   firebase_analytics: 71531c94f4457504e12bb60baa53bf283f59e67f
   firebase_auth: af8784c4d8d87c36f730a305f97bfbcb24db024b
@@ -236,6 +257,7 @@ SPEC CHECKSUMS:
   FirebaseStorage: f4f39ae834a7145963b913f54e2f24a9db1d8fac
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_audio_recorder: eb998d4e75e59b39d9e3ca1818a5e0f3a82f5836
+  flutter_sentry: e7e66f0717b5fba24f96891e879562bdd8985d36
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GoogleAppMeasurement: 67458367830514fb20fd9e233496f1eef9d90185
   GoogleDataTransport: 9a8a16f79feffc7f42096743de2a7c4815e84020
@@ -244,10 +266,12 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
   path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
   path_provider_linux: 4d630dc393e1f20364f3e3b4a2ff41d9674a84e4
   path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  Sentry: 74f2ad93a20a5567a1badaedf5b3f60b142ad082
   shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
   shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
   shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
