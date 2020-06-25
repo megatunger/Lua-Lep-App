@@ -7,6 +7,7 @@ firebase_auth_web=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_
 firebase_core=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.5/
 firebase_core_web=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/
 firebase_database=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_database-3.1.6/
+firebase_messaging=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-6.0.16/
 firebase_storage=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.6/
 flutter_audio_recorder=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/flutter_audio_recorder-0.5.5/
 flutter_sentry=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/flutter_sentry-0.4.2/

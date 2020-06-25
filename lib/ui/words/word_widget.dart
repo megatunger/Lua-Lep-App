@@ -1,5 +1,7 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:confetti/confetti.dart';
+import 'package:lualepapp/blocs/user_data_bloc.dart';
 import 'package:lualepapp/blocs/word_check_bloc.dart';
 import 'package:lualepapp/model/word_check.dart';
 import 'package:lualepapp/model/word_model.dart';
@@ -116,20 +118,36 @@ class _WordWidgetState extends State<WordWidget> {
                     stream: wordCheckBloc.wordCheckSubject.stream,
                     builder: (context, AsyncSnapshot<WordCheck> snapshot) {
                       if (snapshot.hasData) {
+                        userDataBloc.writeData(character: snapshot.data.word.toLowerCase()[0], word: snapshot.data.word, correct: snapshot.data.passed);
                         if (snapshot.data.passed==true) {
                             _controllerTopCenter.play();
                         }
                         return Center(
-                            child: Text(
-                              snapshot.data.message,
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 20,
-                                  color: LLTheme.backgroundColor
-                              ),
-                              maxLines: 2,
-                              textAlign: TextAlign.center,
-                            ),
+                            child: Column(
+                              children: [
+                                Text(
+                                  snapshot.data.message,
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 20,
+                                      color: LLTheme.backgroundColor.withOpacity(0.8)
+                                  ),
+                                  maxLines: 2,
+                                  textAlign: TextAlign.center,
+                                ),
+                                SizedBox(height: 16,),
+                                Text(
+                                  "Độ chính xác ${snapshot.data.accuracy}",
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 32,
+                                      color: LLTheme.backgroundColor
+                                  ),
+                                  maxLines: 2,
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
+                            )
                           );
                       } else if (snapshot.hasError) {
                         return _buildErrorWidget(snapshot.error);
@@ -156,7 +174,7 @@ class _WordWidgetState extends State<WordWidget> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(height: 8),
-            CircularProgressIndicator(),
+            CupertinoActivityIndicator(animating: true, radius: 24,),
             SizedBox(height: 8),
           ],
         ));

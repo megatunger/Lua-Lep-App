@@ -7,7 +7,8 @@ class WordCheckApiProvider{
 
   Future<WordCheck> checkWord(String word, String audioFile) async {
     try {
-      Response response = await _dio.get(constant.baseAPI, 
+      print(constant.baseAPI+"/word");
+      Response response = await _dio.post(constant.baseAPI+"/word",
           queryParameters: {
             "word": word, 
             "audio_file": audioFile

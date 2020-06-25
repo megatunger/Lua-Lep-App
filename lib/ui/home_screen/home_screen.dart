@@ -60,12 +60,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 new RatingWidget(),
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: CupertinoButton.filled(child: Text("Kiểm tra"), onPressed: () {
-
-                  }),
-                ),
+//                Padding(
+//                  padding: EdgeInsets.only(top: 20),
+//                  child: CupertinoButton.filled(child: Text("Kiểm tra"), onPressed: () {
+//
+//                  }),
+//                ),
                 Padding(
                   padding: EdgeInsets.only(top: 20),
                   child: Text(

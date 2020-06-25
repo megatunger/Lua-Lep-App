@@ -14,10 +14,8 @@
 	<string>Lúa Lếp</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>SentryDSN</key>
-    <string>https://b0222c59b32743b09cb6c0486b86694e@o353025.ingest.sentry.io/5285504</string>
 	<key>CFBundleShortVersionString</key>
-	<string>$(FLUTTER_BUILD_NAME)</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -26,6 +24,13 @@
 	<true/>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Ứng dụng cần quyền truy cập microphone để thu âm giọng nói của bạn</string>
+	<key>SentryDSN</key>
+	<string>https://b0222c59b32743b09cb6c0486b86694e@o353025.ingest.sentry.io/5285504</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

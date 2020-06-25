@@ -1,3 +1,4 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:lualepapp/ui/on_boarding.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
@@ -13,9 +14,22 @@ Future<void> main() => FlutterSentry.wrap(
 
 class MyApp extends StatelessWidget {
   FirebaseAnalytics analytics = FirebaseAnalytics();
-  // This widget is the root of your application.
+  static Future<dynamic> myBackgroundMessageHandler(Map<String, dynamic> message) {
+      if (message.containsKey('data')) {
+        // Handle data message
+        final dynamic data = message['data'];
+      }
+
+      if (message.containsKey('notification')) {
+        // Handle notification message
+        final dynamic notification = message['notification'];
+      }
+  }
+  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+  
   @override
   Widget build(BuildContext context) {
+    pushMessageInit();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -31,5 +45,31 @@ class MyApp extends StatelessWidget {
         FirebaseAnalyticsObserver(analytics: analytics),
       ],
     );
+  }
+
+  void pushMessageInit() {
+    _firebaseMessaging.configure(
+      onMessage: (Map<String, dynamic> message) async {
+        print("onMessage: $message");
+      },
+      onLaunch: (Map<String, dynamic> message) async {
+        print("onLaunch: $message");
+      },
+      onResume: (Map<String, dynamic> message) async {
+        print("onResume: $message");
+      },
+    );
+    _firebaseMessaging.requestNotificationPermissions(
+        const IosNotificationSettings(
+            sound: true, badge: true, alert: true, provisional: true));
+            
+    _firebaseMessaging.onIosSettingsRegistered
+        .listen((IosNotificationSettings settings) {
+      print("Settings registered: $settings");
+    });
+
+    _firebaseMessaging.getToken().then((String token) {
+      assert(token != null);
+    });
   }
 }

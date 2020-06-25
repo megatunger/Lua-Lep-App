@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271a282a-2679-43dc-9b5c-dbcea4b5b841" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Runner.entitlements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/megatunger/lualepapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/com/megatunger/lualepapp/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/app_data_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/app_data_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/blocs/word_check_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/word_check_bloc.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/provider/word_check_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/provider/word_check_provider.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/home_screen/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_screen/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/home_screen/words_carousel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_screen/words_carousel.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/on_boarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/on_boarding.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/home_screen/rating_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_screen/rating_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/words/word_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/words/word_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/constant.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lualepapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lualepapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>

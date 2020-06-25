@@ -52,7 +52,7 @@ class _RatingWidgetState extends State<RatingWidget> {
                                   textAlign: TextAlign.center
                               ),
                               SizedBox(height: 8,),
-                              Text("${snapshot.data*100.toInt()}%",
+                              Text("${(snapshot.data*100).round()}%",
                                   style: TextStyle(
                                       fontSize: 32,
                                       fontWeight: FontWeight.w700,
@@ -100,7 +100,7 @@ class _RatingWidgetState extends State<RatingWidget> {
                                   textAlign: TextAlign.center
                               ),
                               SizedBox(height: 8,),
-                              Text("${snapshot.data*100.toInt()}%",
+                              Text("${(snapshot.data*100).round()}%",
                                   style: TextStyle(
                                       fontSize: 32,
                                       fontWeight: FontWeight.w700,

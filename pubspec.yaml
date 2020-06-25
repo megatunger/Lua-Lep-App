@@ -49,6 +49,7 @@ dependencies:
   sentry: any
   dio: ^3.0.9
   confetti: ^0.5.2
+  firebase_messaging: ^6.0.16
 
 flutter_icons:
   ios: true

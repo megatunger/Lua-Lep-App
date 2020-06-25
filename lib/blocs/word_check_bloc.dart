@@ -15,7 +15,7 @@ class WordCheckBloc {
     _wordCheckSubject.close();
   }
 
-  PublishSubject<WordCheck> get wordCheckSubject => _wordCheckSubject;
+  PublishSubject<WordCheck> get wordCheckSubject  => _wordCheckSubject;
   
 }
 final wordCheckBloc = WordCheckBloc();
