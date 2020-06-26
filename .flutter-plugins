@@ -1,5 +1,7 @@
 # This is a generated file; do not edit or check into version control.
 audioplayers=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.15.1/
+cloud_firestore=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.7/
+cloud_firestore_web=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.1.1+2/
 device_info=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/device_info-0.4.2+4/
 firebase_analytics=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-5.0.15/
 firebase_auth=/Users/megatunger/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.16.1/

@@ -13,6 +13,8 @@ import 'package:lualepapp/utils/cryptoString.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
+import '../../blocs/user_data_bloc.dart';
+
 class RecorderWidget extends StatefulWidget {
   final LocalFileSystem localFileSystem;
   final Word wordData;
@@ -148,7 +150,8 @@ class RecorderWidgetState extends State<RecorderWidget> {
     StorageUploadTask uploadTask = storageReference.putFile(file);
     await uploadTask.onComplete;
     if (this.widget.wordData!=null) {
-      wordCheckBloc.checkWord(this.widget.wordData.word, file.basename);
+      await wordCheckBloc.checkWord(this.widget.wordData.word, file.basename);
+      userDataBloc.refreshData();
     }
     print('File Uploaded');
   }

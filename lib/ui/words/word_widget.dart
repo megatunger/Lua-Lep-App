@@ -137,7 +137,7 @@ class _WordWidgetState extends State<WordWidget> {
                                 ),
                                 SizedBox(height: 16,),
                                 Text(
-                                  "Độ chính xác ${snapshot.data.accuracy}",
+                                  "${snapshot.data.accuracy}",
                                   style: TextStyle(
                                       fontWeight: FontWeight.w600,
                                       fontSize: 32,
