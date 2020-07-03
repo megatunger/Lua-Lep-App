@@ -1,16 +1,5 @@
-# lualepapp
+# Lúa Lếp App - Ứng dụng hỗ trợ chữa nói ngọng
 
-Lúa Lếp App
+![PlayStore](https://github.com/megatunger/Lua-Lep-App/blob/master/Lua-Lep-App/markdown/1*EiZrcN_DIapbZaxutxbZRA.png?raw=true)(https://play.google.com/store/apps/details?id=com.megatunger.lualepapp)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![AppStore](https://github.com/megatunger/Lua-Lep-App/blob/master/Lua-Lep-App/markdown/Download-on-the-App-Store-button.png?raw=true)(https://apps.apple.com/us/app/lúa-lếp/id1519995438)

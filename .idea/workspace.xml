@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="271a282a-2679-43dc-9b5c-dbcea4b5b841" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/blocs/sentence_check_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/model/sentence_check.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/provider/sentence_check_api.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/provider/sentence_check_api_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/recorder/sentence_recorder_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/on_boarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/on_boarding.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/recorder/recorder_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/recorder/recorder_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/sentences/sentence_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/sentences/sentence_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/words/word_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/words/word_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/constant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/constant.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lualepapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lualepapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dart File" />
         <option value="stateful_widget" />
+        <option value="Dart File" />
       </list>
     </option>
   </component>
@@ -35,7 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dY8RcsmfLBTRNOXdVJZAbqOhNt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,7 +51,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -89,38 +94,51 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1113" height="277" key="GridCell.Tab.0.bottom" timestamp="1593166263940">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="385" key="GridCell.Tab.0.bottom" timestamp="1593749334662">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="385" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1593749334662" />
     <state width="1113" height="277" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.983@-1920.23.1920.1057" timestamp="1593160527948" />
     <state width="1113" height="277" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.987@-1920.23.1920.1057" timestamp="1593165023942" />
     <state width="1113" height="277" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.989@-1920.23.1920.1057" timestamp="1593166263940" />
-    <state width="1113" height="277" key="GridCell.Tab.0.center" timestamp="1593166263939">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1324" height="169" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1593345256076" />
+    <state width="1878" height="385" key="GridCell.Tab.0.center" timestamp="1593749334657">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="385" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1593749334657" />
     <state width="1113" height="277" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.983@-1920.23.1920.1057" timestamp="1593160527947" />
     <state width="1113" height="277" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.987@-1920.23.1920.1057" timestamp="1593165023941" />
     <state width="1113" height="277" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.989@-1920.23.1920.1057" timestamp="1593166263939" />
-    <state width="1113" height="277" key="GridCell.Tab.0.left" timestamp="1593166263939">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1324" height="169" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1593345256076" />
+    <state width="1878" height="385" key="GridCell.Tab.0.left" timestamp="1593749334654">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="385" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1593749334654" />
     <state width="1113" height="277" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.983@-1920.23.1920.1057" timestamp="1593160527946" />
     <state width="1113" height="277" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.987@-1920.23.1920.1057" timestamp="1593165023941" />
     <state width="1113" height="277" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.989@-1920.23.1920.1057" timestamp="1593166263939" />
-    <state width="1113" height="277" key="GridCell.Tab.0.right" timestamp="1593166263940">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1324" height="169" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1593345256075" />
+    <state width="1878" height="385" key="GridCell.Tab.0.right" timestamp="1593749334659">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="385" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1593749334659" />
     <state width="1113" height="277" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.983@-1920.23.1920.1057" timestamp="1593160527947" />
     <state width="1113" height="277" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.987@-1920.23.1920.1057" timestamp="1593165023942" />
     <state width="1113" height="277" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.989@-1920.23.1920.1057" timestamp="1593166263940" />
-    <state x="-1725" y="211" key="SettingsEditor" timestamp="1593160679478">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1324" height="169" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1593345256076" />
+    <state x="146" y="160" key="SettingsEditor" timestamp="1593688976552">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1725" y="211" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.983@-1920.23.1920.1057" timestamp="1593160034429" />
     <state x="-1725" y="211" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.985@-1920.23.1920.1057" timestamp="1593160679478" />
+    <state x="146" y="160" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1593688976552" />
     <state x="-1556" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1593160079761">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1556" y="405" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1920.983@-1920.23.1920.1057" timestamp="1593160079761" />
+    <state x="636" y="165" width="648" height="750" key="find.popup" timestamp="1593745285826">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="636" y="165" width="648" height="750" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1593745285826" />
   </component>
 </project>

@@ -118,7 +118,10 @@ class _WordWidgetState extends State<WordWidget> {
                     stream: wordCheckBloc.wordCheckSubject.stream,
                     builder: (context, AsyncSnapshot<WordCheck> snapshot) {
                       if (snapshot.hasData) {
-                        userDataBloc.writeData(character: snapshot.data.word.toLowerCase()[0], word: snapshot.data.word, correct: snapshot.data.passed);
+                        print(snapshot.data.word);
+                        if (snapshot.data.word!='') {
+                          userDataBloc.writeData(character: snapshot.data.word.toLowerCase()[0], word: snapshot.data.word, correct: snapshot.data.passed);
+                        }
                         if (snapshot.data.passed==true) {
                             _controllerTopCenter.play();
                         }
