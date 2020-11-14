@@ -8,6 +8,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/_site/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/_site/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/_site/build" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/audioplayers/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/audioplayers/.pub" />
