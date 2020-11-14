@@ -1,5 +1,6 @@
 # See https://www.dartlang.org/guides/libraries/private-files
 
+_site
 # Files and directories created by pub
 .dart_tool/
 .packages
@@ -317,3 +318,4 @@ fastlane/test_output
 iOSInjectionProject/
 
 android/key.properties
+lib/utils/ad_manager.dart

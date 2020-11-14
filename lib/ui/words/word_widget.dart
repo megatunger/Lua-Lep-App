@@ -6,6 +6,7 @@ import 'package:lualepapp/blocs/word_check_bloc.dart';
 import 'package:lualepapp/model/word_check.dart';
 import 'package:lualepapp/model/word_model.dart';
 import 'package:lualepapp/ui/recorder/recorder_widget.dart';
+import 'package:lualepapp/utils/ads_helper.dart';
 import '../theme.dart';
 
 class WordWidget extends StatefulWidget {
@@ -21,6 +22,7 @@ class _WordWidgetState extends State<WordWidget> {
 
   @override
   void initState() {
+    AdsHelper.showPopupAd();
     _controllerTopCenter = ConfettiController(duration: const Duration(seconds: 3));
     super.initState();
   }
@@ -69,10 +71,10 @@ class _WordWidgetState extends State<WordWidget> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Container(
-                        alignment: Alignment.center,
+                      Expanded(
                         child: Text(
                           'Bấm nút ghi âm và phát âm từ bên dưới',
+                          overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 20,

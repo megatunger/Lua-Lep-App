@@ -14,6 +14,9 @@
         <meta-data
             android:name="io.sentry.dsn"
             android:value="https://b0222c59b32743b09cb6c0486b86694e@o353025.ingest.sentry.io/5285504" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7182124402339573~3476028233"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

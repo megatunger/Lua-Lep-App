@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lualepapp/blocs/user_data_bloc.dart';
 import 'package:lualepapp/model/word_model.dart';
 import 'package:lualepapp/ui/words/word_widget.dart';
+import 'package:lualepapp/utils/ads_helper.dart';
 import 'package:random_color/random_color.dart';
 
 import '../theme.dart';
@@ -32,9 +32,8 @@ class _WordsCarouselState extends State<WordsCarousel> {
         itemCount: this.widget.words == null ? 0 : this.widget.words.length,
         itemBuilder: (BuildContext context, int index) {
           Word place = this.widget.words[index];
-          Color _color = _randomColor.randomColor(
-              colorBrightness: ColorBrightness.dark
-          );
+          Color _color =
+              _randomColor.randomColor(colorBrightness: ColorBrightness.dark);
           return Padding(
             padding: const EdgeInsets.only(right: 20),
             child: InkWell(
@@ -52,24 +51,20 @@ class _WordsCarouselState extends State<WordsCarousel> {
                           height: 220.0,
                           child: DecoratedBox(
                             decoration: BoxDecoration(
-                                color: _color,
-                                gradient: LinearGradient(
-                                    begin: Alignment.topCenter,
-                                    end: Alignment.bottomCenter,
-                                    colors: [
-                                       _color, _color.withAlpha(50)
-                                    ]),
+                              color: _color,
+                              gradient: LinearGradient(
+                                  begin: Alignment.topCenter,
+                                  end: Alignment.bottomCenter,
+                                  colors: [_color, _color.withAlpha(50)]),
                             ),
                             child: Center(
                                 child: Text(place.word,
+                                    overflow: TextOverflow.ellipsis,
                                     style: TextStyle(
                                         fontSize: 30,
                                         fontWeight: FontWeight.w700,
-                                        color: LLTheme.backgroundColor
-                                    ),
-                                    textAlign: TextAlign.center
-                                )
-                            ),
+                                        color: LLTheme.backgroundColor),
+                                    textAlign: TextAlign.center)),
                           ),
                         ),
                       ),
